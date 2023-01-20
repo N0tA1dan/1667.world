@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: black;
+  cursor: none;
+  cursor: url(https://www.nicepng.com/png/full/73-736116_view-cursor-on-t-shirt-kunai.png), auto;
+}
+
+
+.name-container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  text-align: middle;
+}
+
+.top-name {
+  margin: 0;
+  margin-bottom: 5px;
+  color: red;
+  text-decoration: none;
+  text-align: center;
+  font-family: Monospace;
+  font-size: 15px;
+  
+  -moz-transition: color .2s ease-in;
+  -o-transition: color .2s ease-in;
+  -webkit-transition: color .2s ease-in;
+}
+
+.top-name:hover{
+  color:white
+}
+
+.names {
+  margin: 0;
+  color: red;
+  text-decoration: none;
+  text-align: center;
+  font-family: Monospace;
+  font-size: 15px;
+  padding: none;
+
+  -moz-transition: color .2s ease-in;
+  -o-transition: color .2s ease-in;
+  -webkit-transition: color .2s ease-in;
+}
+
+.names:hover {
+  color: white;
+}
