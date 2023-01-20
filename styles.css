@@ -30,14 +30,6 @@ body {
   align-items : center;
 }
 
-.btn {
-/*   border : none; */
-/*   padding : 10px; */
-/*   position : fixed; */
-  z-index : -1;
-  left : 50%;
-  transform : translateX(-50%);
-}
 
 .name-container {
   margin-top: 100px;
