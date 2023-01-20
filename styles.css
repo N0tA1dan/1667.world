@@ -5,6 +5,30 @@ body {
   cursor: url(https://www.nicepng.com/png/full/73-736116_view-cursor-on-t-shirt-kunai.png), auto;
 }
 
+.splash{
+  cursor : pointer;
+  position : fixed;
+  top : 50%;
+  left : 50%;
+  height : 95%;
+  width : 95%;
+  transform : translate(-50%,-50%);    
+  background-color: rgba(0,0,0);
+  transition : all ease-in-out 600ms;
+}
+.hidden{
+  transition : 0.5s;
+  display : none;
+}
+.splash-header {
+  height : 90%;
+  color : white;
+  font-family : Monospace;
+  font-size : 15px;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+}
 
 .name-container {
   margin-top: 100px;
