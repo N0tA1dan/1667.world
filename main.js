@@ -1,3 +1,11 @@
+var splashScreen = document.querySelector('.splash');
+splashScreen.addEventListener('click',()=>{
+  splashScreen.style.opacity = 0;
+  setTimeout(()=>{
+    splashScreen.classList.add('hidden')
+  },610)
+})
+
 // <![CDATA[
 var colour = "#FFFFFF";
 var sparkles = 120;
@@ -163,4 +171,3 @@ function createDiv(height, width) {
   return (div);
 }
 // ]]>
-
